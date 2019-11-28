@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#f7f7f7"
+    android:layout_height="200sp">
+
+
+<androidx.cardview.widget.CardView
+    android:layout_width="385dp"
+    android:layout_height="170dp"
+    android:fitsSystemWindows="true"
+    android:layout_margin="20dp"
+    app:cardElevation="20dp"
+    android:backgroundTint="@color/nekocol"
+    app:cardPreventCornerOverlap="true"
+    app:cardCornerRadius="20dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/bg1"
+        android:layout_marginTop="4dp"
+        android:layout_width="170dp"
+        android:layout_gravity="left"
+        android:layout_height="150dp"/>
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="7dp">
+
+    <TextView
+        android:id="@+id/text_name"
+        android:text="Titlle"
+        android:textSize="32dp"
+        android:layout_marginLeft="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/text_price"
+        android:text="Titlle"
+        android:textSize="32dp"
+        android:layout_marginLeft="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TotalOrder">
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="193sp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Total"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="52sp" />
+
+   <Button
+       android:id="@+id/discount"
+       android:layout_marginTop="10sp"
+       android:layout_width="201sp"
+       android:layout_height="70sp"
+       android:layout_gravity="center"
+       android:layout_alignParentRight="true"
+       android:background="@color/nekocol"
+       android:fontFamily="monospace"
+       android:text="ADD DISCOUNT"
+       android:textColor="@color/nekotext"
+       android:textSize="20sp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+
+</LinearLayout>
